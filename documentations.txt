@@ -1,0 +1,3 @@
+tc.39.es ECMAScript  //original documentation //standards
+
+MDN web docs  //mozilla organization //preferrable for understanding
