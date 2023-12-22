@@ -23,6 +23,15 @@ console.log(all_new_heros);
 
 const arr1 = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-const real_arr1 = arr1.flat(Infinity)
+const real_arr1 = arr1.flat(Infinity)             
 console.log(real_arr1);
 
+console.log(Array.isArray("Ifrah"))
+console.log(Array.from("Ifrah"))
+console.log(Array.from({name: "ifrah"}))    // {} <= this is obj, function will not conver the obj into array direct, hence provide the empty array
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3));
